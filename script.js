@@ -16,7 +16,7 @@ a.setAttribute("href", "https://www.google.com");
 // 3. Gunakan loop untuk mengubah text, style, size, dan warna background list
 const lists = document.querySelectorAll("li");
 for (i = 0; i < lists.length; i++) {
-  lists[i].textContent = "List Baru";
+  lists[i].textContent = `List baru ${i + 1}`;
   lists[i].style.fontSize = "20px";
   lists[i].style.color = "red";
   lists[i].style.backgroundColor = "yellow";
